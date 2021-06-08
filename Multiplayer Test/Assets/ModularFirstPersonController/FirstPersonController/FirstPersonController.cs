@@ -200,7 +200,8 @@ public class FirstPersonController : NetworkBehaviour
         }
         else
         {
-            playerCamera.gameObject.SetActive(false);
+            playerCamera.enabled = false;
+            playerCamera.gameObject.GetComponent<AudioListener>().enabled = false;
         }
     }
 
