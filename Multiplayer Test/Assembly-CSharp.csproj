@@ -58,12 +58,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\HelloWorldPlayer.cs" />
+    <Compile Include="Assets\GooScript.cs" />
+    <Compile Include="Assets\Scripts\GooGunShooting.cs" />
     <Compile Include="Assets\Scripts\HelloWorldManager.cs" />
     <Compile Include="Assets\Scripts\PlayerSpawner.cs" />
     <Compile Include="Assets\Scripts\ShardgerShooting.cs" />
     <Compile Include="Assets\Scripts\PasswordNetworkManager.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\PlayerShooting.cs" />
+    <Compile Include="Assets\SwapWeaponScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
